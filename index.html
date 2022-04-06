@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="./app.js"></script>
+    <div id="color-overlay">
+        <h1 id="text-bg">Get well soon</h1>
+    </div>
+    <div id="color-overlay">
+        <h1 id="text-bg">How are you?⬇️👈</h1>
+    </div>
+    <button id="up">👍</button>
+    <button id="down">👎</button>
+    <script>
+    // Make the start button work
+const $startButton = document.getElementById("up");
+$startButton.onclick=()=>{
+alert("Ok come home soon")
+}
+//2
+const $starttButton = document.getElementById("down");
+$starttButton.onclick=()=>{
+alert("Eat and drink plenty of fluids")
+}
+    </script>
+</body>
+</html>
